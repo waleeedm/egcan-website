@@ -21,3 +21,6 @@ Open `index.html` in a browser. Demo images are served by Unsplash and fonts by 
 - Replace `hello@egcan.example` with the real contact address.
 - Replace demo imagery with approved product, supplier and project photos before launch.
 - Review all product/service descriptions before publishing.
+
+
+Current structure: EGCAN Holding with three service areas: Clad Door, Custom Furniture (including the EG Bespoke line for home, outdoor and custom designs), and Can Accessories.
