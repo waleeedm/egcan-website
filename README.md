@@ -1,6 +1,6 @@
 # EGCAN static website concept
 
-A responsive, one-page static website prototype for EGCAN Holding Company (Egypt).
+A responsive, one-page static website prototype for EGCAN Holding Company (Egypt), with Clad Door, EG Bespoke, Can Accessories, and a dedicated Custom Furniture feature.
 
 ## Files
 - `index.html` — page structure and content
