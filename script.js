@@ -6,3 +6,10 @@ const links=[...document.querySelectorAll('.main-nav a[href^="#"]')];const secti
 // Static inquiry form: prepares an email draft; no data is stored or transmitted by this site.
 const inquiryForm=document.getElementById('inquiryForm');
 if(inquiryForm){inquiryForm.addEventListener('submit',event=>{event.preventDefault();const data=new FormData(inquiryForm);const name=String(data.get('name')||'').trim();const email=String(data.get('email')||'').trim();const service=String(data.get('service')||'').trim();const message=String(data.get('message')||'').trim();const subject=encodeURIComponent(`EGCAN enquiry — ${service}`);const body=encodeURIComponent(`Name: ${name}\nEmail: ${email}\nService: ${service}\n\nProject details:\n${message||'Not provided'}`);const status=document.getElementById('formStatus');if(status)status.textContent='Your email app should open with the enquiry details ready to send.';window.location.href=`mailto:hello@egcan.example?subject=${subject}&body=${body}`;});}
+
+// Make each homepage service card a convenient link to its dedicated landing page.
+document.querySelectorAll('.division-card[data-page]').forEach(card=>{
+  card.style.cursor='pointer';
+  card.addEventListener('click',event=>{if(event.target.closest('a'))return;window.location.href=card.dataset.page;});
+  card.addEventListener('keydown',event=>{if((event.key==='Enter'||event.key===' ')&&event.target===card){event.preventDefault();window.location.href=card.dataset.page;}});
+});

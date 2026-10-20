@@ -1,26 +1,13 @@
-# EGCAN static website concept
+# EGCAN Holding — static multi-page website
 
-A responsive, one-page static website prototype for EGCAN Holding Company (Egypt), with Clad Door, EG Bespoke, Can Accessories, and a dedicated Custom Furniture feature.
+- `index.html`: EGCAN Holding homepage and service overview
+- `clad-door.html`: Clad Door landing page
+- `custom-furniture.html`: Custom Furniture landing page; EG Bespoke is within this division
+- `can-accessories.html`: Can Accessories landing page
+- `styles.css`, `script.js`, and `egcan-logo-middle.png`: shared assets
 
-## Files
-- `index.html` — page structure and content
-- `styles.css` — visual design, responsive layouts and CSS interactions
-- `script.js` — mobile navigation, subtle 3D tilt, active section state and footer year
+Upload all files directly to the root of your GitHub repository and commit to `main`. GitHub Pages settings stay the same. The homepage cards link to three individual landing pages, each with a distinct visual accent.
 
-## Preview locally
-Open `index.html` in a browser. Demo images are served by Unsplash and fonts by Google Fonts, so those assets require an internet connection.
+Later, each division can move to its own subdomain, but that requires a domain you control, DNS records, and custom-domain/hosting configuration. These current pages are paths on one GitHub Pages site, not separate subdomains yet.
 
-## Publish with GitHub Pages
-1. Create a GitHub repository.
-2. Upload `index.html`, `styles.css`, `script.js` and this README to the repository root.
-3. Open **Settings → Pages**.
-4. Select deployment from the `main` branch and `/ (root)`, then save.
-
-## Prototype notes
-- Static concept only; no backend, forms, analytics, tracking, payment or CMS is connected.
-- Replace `hello@egcan.example` with the real contact address.
-- Replace demo imagery with approved product, supplier and project photos before launch.
-- Review all product/service descriptions before publishing.
-
-
-Current structure: EGCAN Holding with three service areas: Clad Door, Custom Furniture (including the EG Bespoke line for home, outdoor and custom designs), and Can Accessories.
+The inquiry form is a static demo that opens an email draft. Replace `hello@egcan.example` in `script.js` before launch or connect a form service. Fonts and imagery require internet access; social links are placeholders.
