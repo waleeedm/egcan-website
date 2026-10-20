@@ -1,13 +1,17 @@
-# EGCAN Holding — static multi-page website
+# EGCAN Holding — Static shop prototype
 
-- `index.html`: EGCAN Holding homepage and service overview
-- `clad-door.html`: Clad Door landing page
-- `custom-furniture.html`: Custom Furniture landing page; EG Bespoke is within this division
-- `can-accessories.html`: Can Accessories landing page
-- `styles.css`, `script.js`, and `egcan-logo-middle.png`: shared assets
+## Files
+- `index.html` — EGCAN Holding homepage
+- `clad-door.html` — Clad Door landing page
+- `custom-furniture.html` — Custom Furniture / EG Bespoke landing page
+- `can-accessories.html` — Can Accessories landing page
+- `shop.html` — sample storefront with category filters and demo shopping bag
+- `styles.css` — shared responsive design and typography
+- `script.js` — navigation, interactions and demo cart
+- `egcan-logo-middle.png` — selected EGCAN logo
 
-Upload all files directly to the root of your GitHub repository and commit to `main`. GitHub Pages settings stay the same. The homepage cards link to three individual landing pages, each with a distinct visual accent.
+## Publish on GitHub Pages
+Upload all files directly into the repository root and commit to `main`. Keep Pages set to `main` and `/(root)`.
 
-Later, each division can move to its own subdomain, but that requires a domain you control, DNS records, and custom-domain/hosting configuration. These current pages are paths on one GitHub Pages site, not separate subdomains yet.
-
-The inquiry form is a static demo that opens an email draft. Replace `hello@egcan.example` in `script.js` before launch or connect a form service. Fonts and imagery require internet access; social links are placeholders.
+## Prototype limitations
+The products and imagery are placeholders. The bag uses browser `localStorage` and is only a demo. There is no stock control, server-side order storage, checkout, payment processing, or order notification. Before launch, replace `hello@egcan.example` in `shop.html` and `script.js` with the real company email, replace placeholder products/prices/images, and connect a backend or form/order service. Google Fonts and Unsplash images require an internet connection.
