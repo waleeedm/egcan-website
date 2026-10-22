@@ -1,0 +1,287 @@
+[
+  {
+    "id": "pivot-01",
+    "name": "Architectural Pivot Door",
+    "category": "Clad Door",
+    "price": "Price on request",
+    "tag": "Architectural",
+    "description": "A contemporary entrance concept with a strong material presence. Final dimensions, cladding and hardware depend on the project brief.",
+    "images": [
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1400&q=85",
+      "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1400&q=85",
+      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1400&q=85"
+    ],
+    "specs": {
+      "Division": "Clad Door",
+      "Finish": "Confirm by enquiry",
+      "Dimensions": "Project specification",
+      "Availability": "On request"
+    }
+  },
+  {
+    "id": "clad-02",
+    "name": "Textured Clad Door",
+    "category": "Clad Door",
+    "price": "Price on request",
+    "tag": "Made to measure",
+    "description": "A refined cladding direction for a modern entrance. Share your opening dimensions and preferred finish for a project-specific discussion.",
+    "images": [
+      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1400&q=85",
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1400&q=85",
+      "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=1400&q=85"
+    ],
+    "specs": {
+      "Division": "Clad Door",
+      "Finish": "To be confirmed",
+      "Dimensions": "Project-specific",
+      "Availability": "On request"
+    }
+  },
+  {
+    "id": "flush-03",
+    "name": "Minimal Flush Door",
+    "category": "Clad Door",
+    "price": "Price on request",
+    "tag": "Minimal",
+    "description": "Understated lines for calm, contemporary interiors. Discuss the opening, finish and hardware as one coordinated specification.",
+    "images": [
+      "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=1400&q=85",
+      "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1400&q=85",
+      "https://images.unsplash.com/photo-1600606753190-17f0baa2a6c3?auto=format&fit=crop&w=1400&q=85"
+    ],
+    "specs": {
+      "Division": "Clad Door",
+      "Style": "Minimal flush concept",
+      "Finish": "By enquiry",
+      "Availability": "On request"
+    }
+  },
+  {
+    "id": "timber-04",
+    "name": "Timber-Effect Entrance",
+    "category": "Clad Door",
+    "price": "Price on request",
+    "tag": "Warm finish",
+    "description": "A warm timber-led design direction that connects the entrance to the surrounding architecture.",
+    "images": [
+      "https://images.unsplash.com/photo-1600606753190-17f0baa2a6c3?auto=format&fit=crop&w=1400&q=85",
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1400&q=85",
+      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1400&q=85"
+    ],
+    "specs": {
+      "Division": "Clad Door",
+      "Finish": "To be confirmed",
+      "Dimensions": "Project-specific",
+      "Availability": "On request"
+    }
+  },
+  {
+    "id": "interior-05",
+    "name": "Interior Clad Door",
+    "category": "Clad Door",
+    "price": "Price on request",
+    "tag": "Interior",
+    "description": "Carry a consistent design language from the entry into interior spaces. Specifications are confirmed for each project.",
+    "images": [
+      "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1400&q=85",
+      "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=1400&q=85",
+      "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1400&q=85"
+    ],
+    "specs": {
+      "Division": "Clad Door",
+      "Application": "Interior concept",
+      "Finish": "By enquiry",
+      "Availability": "On request"
+    }
+  },
+  {
+    "id": "bespoke-01",
+    "name": "Bespoke Lounge Chair",
+    "category": "Custom Furniture",
+    "price": "Price on request",
+    "tag": "EG Bespoke",
+    "description": "A sculptural seating concept for considered interiors. Upholstery, timber, dimensions and finish can be discussed for a custom order.",
+    "images": [
+      "https://images.unsplash.com/photo-1598300056393-4aac492f4344?auto=format&fit=crop&w=1400&q=85",
+      "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1400&q=85",
+      "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1400&q=85"
+    ],
+    "specs": {
+      "Division": "Custom Furniture",
+      "Line": "EG Bespoke",
+      "Materials": "Confirm by enquiry",
+      "Dimensions": "Custom options to be confirmed"
+    }
+  },
+  {
+    "id": "table-02",
+    "name": "Contemporary Side Table",
+    "category": "Custom Furniture",
+    "price": "Price on request",
+    "tag": "Furniture",
+    "description": "A versatile side-table concept for living spaces and hospitality settings. Final material, size and finish are confirmed with the order.",
+    "images": [
+      "https://images.unsplash.com/photo-1499933374294-4584851497cc?auto=format&fit=crop&w=1400&q=85",
+      "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1400&q=85",
+      "https://images.unsplash.com/photo-1616486029423-aaa4789e8c9a?auto=format&fit=crop&w=1400&q=85"
+    ],
+    "specs": {
+      "Division": "Custom Furniture",
+      "Materials": "To be confirmed",
+      "Dimensions": "To be confirmed",
+      "Availability": "On request"
+    }
+  },
+  {
+    "id": "console-03",
+    "name": "Sculptural Console",
+    "category": "Custom Furniture",
+    "price": "Price on request",
+    "tag": "Statement piece",
+    "description": "A tailored console concept designed around the proportions of its setting and the objects it needs to hold.",
+    "images": [
+      "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1400&q=85",
+      "https://images.unsplash.com/photo-1600606753190-17f0baa2a6c3?auto=format&fit=crop&w=1400&q=85",
+      "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=1400&q=85"
+    ],
+    "specs": {
+      "Division": "Custom Furniture",
+      "Line": "EG Bespoke",
+      "Finish": "By enquiry",
+      "Dimensions": "Made to brief"
+    }
+  },
+  {
+    "id": "outdoor-04",
+    "name": "Outdoor Lounge Concept",
+    "category": "Custom Furniture",
+    "price": "Price on request",
+    "tag": "Outdoor living",
+    "description": "Furniture concepts for outdoor living, with materials and finishes selected to suit the intended environment.",
+    "images": [
+      "https://images.unsplash.com/photo-1600606753190-17f0baa2a6c3?auto=format&fit=crop&w=1400&q=85",
+      "https://images.unsplash.com/photo-1598300056393-4aac492f4344?auto=format&fit=crop&w=1400&q=85",
+      "https://images.unsplash.com/photo-1499933374294-4584851497cc?auto=format&fit=crop&w=1400&q=85"
+    ],
+    "specs": {
+      "Division": "Custom Furniture",
+      "Application": "Outdoor concept",
+      "Materials": "Confirm suitability",
+      "Availability": "On request"
+    }
+  },
+  {
+    "id": "storage-05",
+    "name": "Made-to-Measure Storage",
+    "category": "Custom Furniture",
+    "price": "Price on request",
+    "tag": "Bespoke",
+    "description": "Storage and cabinetry planned around a room, its dimensions and everyday use.",
+    "images": [
+      "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=1400&q=85",
+      "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1400&q=85",
+      "https://images.unsplash.com/photo-1600606753190-17f0baa2a6c3?auto=format&fit=crop&w=1400&q=85"
+    ],
+    "specs": {
+      "Division": "Custom Furniture",
+      "Type": "Storage concept",
+      "Dimensions": "Project-specific",
+      "Finish": "By enquiry"
+    }
+  },
+  {
+    "id": "object-01",
+    "name": "Sculptural Wood Object",
+    "category": "Can Accessories",
+    "price": "Price on request",
+    "tag": "Design object",
+    "description": "A decorative object concept that adds warmth and texture to a shelf, table or styled interior. Enquire for the current available range.",
+    "images": [
+      "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1400&q=85",
+      "https://images.unsplash.com/photo-1616486029423-aaa4789e8c9a?auto=format&fit=crop&w=1400&q=85",
+      "https://images.unsplash.com/photo-1615874694520-474822394e73?auto=format&fit=crop&w=1400&q=85"
+    ],
+    "specs": {
+      "Division": "Can Accessories",
+      "Material": "Confirm by enquiry",
+      "Finish": "Confirm by enquiry",
+      "Availability": "On request"
+    }
+  },
+  {
+    "id": "decor-02",
+    "name": "Decorative Accent Piece",
+    "category": "Can Accessories",
+    "price": "Price on request",
+    "tag": "Accessories",
+    "description": "A considered finishing touch for contemporary interiors. Ask about available materials, colourways and dimensions.",
+    "images": [
+      "https://images.unsplash.com/photo-1616486029423-aaa4789e8c9a?auto=format&fit=crop&w=1400&q=85",
+      "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1400&q=85",
+      "https://images.unsplash.com/photo-1618220179428-22790b461013?auto=format&fit=crop&w=1400&q=85"
+    ],
+    "specs": {
+      "Division": "Can Accessories",
+      "Style": "Decorative object",
+      "Specifications": "On request",
+      "Availability": "On request"
+    }
+  },
+  {
+    "id": "tray-03",
+    "name": "Tabletop Styling Object",
+    "category": "Can Accessories",
+    "price": "Price on request",
+    "tag": "Tabletop",
+    "description": "A design-led accent for dining tables, coffee tables, consoles and shelves.",
+    "images": [
+      "https://images.unsplash.com/photo-1615874694520-474822394e73?auto=format&fit=crop&w=1400&q=85",
+      "https://images.unsplash.com/photo-1499933374294-4584851497cc?auto=format&fit=crop&w=1400&q=85",
+      "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1400&q=85"
+    ],
+    "specs": {
+      "Division": "Can Accessories",
+      "Application": "Tabletop",
+      "Finish": "By enquiry",
+      "Availability": "On request"
+    }
+  },
+  {
+    "id": "storage-04",
+    "name": "Decorative Storage Piece",
+    "category": "Can Accessories",
+    "price": "Price on request",
+    "tag": "Functional detail",
+    "description": "A useful finishing piece that keeps everyday essentials close without losing a considered look.",
+    "images": [
+      "https://images.unsplash.com/photo-1618220179428-22790b461013?auto=format&fit=crop&w=1400&q=85",
+      "https://images.unsplash.com/photo-1616486029423-aaa4789e8c9a?auto=format&fit=crop&w=1400&q=85",
+      "https://images.unsplash.com/photo-1615874694520-474822394e73?auto=format&fit=crop&w=1400&q=85"
+    ],
+    "specs": {
+      "Division": "Can Accessories",
+      "Application": "Storage concept",
+      "Materials": "By enquiry",
+      "Availability": "On request"
+    }
+  },
+  {
+    "id": "gift-05",
+    "name": "Giftable Design Object",
+    "category": "Can Accessories",
+    "price": "Price on request",
+    "tag": "Gift idea",
+    "description": "A distinctive object for a home, studio or thoughtful gift. Confirm available options with the team.",
+    "images": [
+      "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1400&q=85",
+      "https://images.unsplash.com/photo-1615874694520-474822394e73?auto=format&fit=crop&w=1400&q=85",
+      "https://images.unsplash.com/photo-1618220179428-22790b461013?auto=format&fit=crop&w=1400&q=85"
+    ],
+    "specs": {
+      "Division": "Can Accessories",
+      "Type": "Design object concept",
+      "Availability": "Confirm by enquiry",
+      "Specifications": "On request"
+    }
+  }
+]
