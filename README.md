@@ -1,34 +1,37 @@
-# EGCAN Holding website — responsive prototype v7
+# EGCAN Holding — website refresh package
 
-## Included files
-- `index.html` — home page and all four divisions
-- `clad-door.html` — Clad Door division
-- `custom-furniture.html` — Custom Furniture / EG Bespoke
-- `can-accessories.html` — Can Accessories
-- `egfit.html` — EGFIT division
-- `shop.html` — category filters and product catalogue
-- `product.html` — reusable product detail page with selectable image gallery
-- `styles.css` — responsive styles for mobile, tablet and desktop
-- `script.js` — navigation, product cards, product gallery, and demo bag
-- `README.md` — deployment notes
+This package updates the supplied EGCAN GitHub Pages website while preserving its existing page structure, filenames, navigation and deep-green / warm-neutral visual identity.
 
-## Upload to GitHub Pages
-1. Extract the ZIP.
-2. Upload all files to the repository root (same folder as the existing `index.html`).
-3. Commit to the `main` branch.
-4. Wait for GitHub Pages to deploy and test on an iPhone/Android device.
+## Included
+- Home page and four divisions
+- Expanded Clad Door and Custom Furniture galleries
+- Can Accessories visual collection gallery
+- EGFIT four-stage shell-to-handover story
+- 15 sample product concepts: five per existing retail category
+- Secondary product image on hover, product details and gallery
+- In-page enquiry modal
+- Responsive styling for desktop and mobile
+- Front-end shopping bag demonstration
 
-## Before commercial launch
-- The wordmark is text-based because the approved `egcan-logo-middle.png` source asset was not available in the working files for this package. Replace the text wordmark with the approved asset when available; do not substitute a different logo design.
-- Product photography is illustrative Unsplash imagery, not confirmed EGCAN inventory or completed projects. Replace with the user's approved photos.
-- Change `hello@egcan.example` in the HTML and `script.js` to the real contact email.
-- Prices and specifications are deliberately “Price on request” / confirmation-based placeholders.
-- The bag is a front-end demonstration using browser local storage and email enquiry. There is no payment gateway, server-side stock, customer account, or order database.
-- EGFIT means **Egyptian General Finishing and Interior Technology** and is positioned around storefronts, complete store fit-outs from scratch, and interior/exterior finishing.
-- Google Fonts and Unsplash images load from the internet; self-host them if offline/strict privacy requirements apply.
+## Publish on GitHub Pages
+1. Download and extract this ZIP.
+2. Open https://github.com/waleeedm/egcan-website
+3. Choose **Add file → Upload files**.
+4. Upload all ten files into the repository root (same folder as `index.html`).
+5. Commit the changes to `main`.
+6. Wait for GitHub Pages to deploy, then test desktop and mobile.
 
-## Product data
-Edit the `products` array near the top of `script.js`. Each item supports:
-`id`, `name`, `category`, `price`, `tag`, `description`, `images` (array), and `specs` (object).
-Supported shop categories: `Clad Door`, `Custom Furniture`, `Can Accessories`.
-EGFIT is a project-service division, not a retail product category in the sample catalogue.
+## Important before launch
+- Product names and imagery are illustrative concepts, not a verified EGCAN inventory list. Replace with approved SKUs, actual names, prices and specifications before accepting orders.
+- Unsplash images are visual references, not confirmed completed EGCAN projects. Replace with approved company photography for a true project portfolio.
+- The EGFIT sequence is an illustrative process (empty shell, planning, fit-out, handover), not a documentary record of one named project.
+- The approved EGCAN logo asset was not included in the uploaded files. The current text wordmark is preserved; no substitute logo has been invented.
+- `hello@egcan.example` remains a placeholder. Replace it in `script.js` and any remaining page copy with the real company enquiry email.
+- The enquiry form opens inside the website. On submit it hands the completed message to the visitor's configured email app. A direct company inbox submission requires a configured form service or backend.
+- The shopping bag is a front-end enquiry demonstration, not live checkout. No payment gateway, order database, stock management, shipping calculation or customer accounts are connected.
+- Prices remain “Price on request” because no approved prices were supplied.
+- Google Fonts and Unsplash photographs require an internet connection.
+
+## Product catalogue
+Edit the `products` array near the top of `script.js`. Each product supports `id`, `name`, `category`, `price`, `tag`, `description`, `images` (array), and `specs` (object).
+Categories: `Clad Door`, `Custom Furniture`, `Can Accessories`. EGFIT remains a project-services division.
