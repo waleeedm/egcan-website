@@ -56,3 +56,22 @@ body.enquiry-open{overflow:hidden}
 @media(max-width:1000px){.process-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.door-gallery{grid-template-columns:repeat(2,minmax(0,1fr))}.visual-gallery figure img{height:250px}}
 @media(max-width:700px){.process-heading{display:block}.process-heading .section-note{margin-top:16px}.process-grid{grid-template-columns:1fr 1fr;gap:10px}.process-card img{height:170px}.process-card>div{padding:13px}.process-card h3{font-size:19px}.visual-gallery,.door-gallery,.furniture-gallery{grid-template-columns:1fr 1fr;gap:10px}.visual-gallery figure img{height:190px}.form-two{grid-template-columns:1fr}.enquiry-modal{padding:27px 20px}.product-card-actions .small-button{font-size:9px;padding:8px}}
 @media(max-width:420px){.process-grid,.visual-gallery,.door-gallery,.furniture-gallery{grid-template-columns:1fr}.process-card img,.visual-gallery figure img{height:230px}}
+
+/* Final polish: external partner note and refined storefront */
+.footer-external{display:flex;flex-direction:column;gap:4px;margin:22px 0 8px;padding:14px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);color:var(--green);font-size:12px}
+.footer-external-label{font-size:9px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);font-weight:700}
+.footer-external small{display:block;color:var(--muted);font-size:10px;margin-top:2px}
+.shop-hero{padding-bottom:34px}
+.shop-controls{align-items:center;gap:18px}
+.filter-list{display:flex;flex-wrap:wrap;gap:8px}
+.filter-button{border:1px solid var(--line);background:transparent;color:var(--green);padding:10px 15px;font-size:11px;transition:all .2s}
+.filter-button:hover,.filter-button.active{background:var(--green);border-color:var(--green);color:#fff}
+.bag-button{white-space:nowrap}
+.product-card{transition:transform .25s ease,box-shadow .25s ease}
+.product-card:hover{transform:translateY(-4px)}
+.product-card img{transition:transform .5s ease}
+.product-card:hover img{transform:scale(1.025)}
+.enquiry-modal{max-height:min(88vh,820px);overflow-y:auto;overscroll-behavior:contain}
+.enquiry-form input,.enquiry-form select,.enquiry-form textarea{width:100%;min-width:0}
+.form-status{min-height:1.2em}
+@media(max-width:700px){.footer-external{margin-top:16px}.shop-controls{align-items:stretch}.filter-list{gap:6px}.filter-button{padding:9px 11px;font-size:10px}}
